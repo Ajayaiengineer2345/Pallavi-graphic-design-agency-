@@ -23,6 +23,7 @@ import {
   Calendar,
   MessageSquare
 } from 'lucide-react';
+import { Analytics } from '@vercel/analytics/react';
 
 // Service Item Type
 interface ServiceItem {
@@ -1168,6 +1169,7 @@ export default function App() {
         </div>
       </footer>
 
+      <Analytics />
     </div>
   );
 }
